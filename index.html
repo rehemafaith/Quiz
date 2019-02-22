@@ -6,7 +6,15 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="container">
+    <header>
+      <nav class="nav-list">
+        <ul>
+          <li class="list"><a class="a" href="page2.html">Home<a/></li>
+          <li class="list"><a class="a" href="page1.html">Instructions</a></li
+        </ul>
+      </nav>
+    </header>
+    <div class="container-fluid">
       <div class="jumbotron">
         <h1>Irma Acadamy</h1>
         <p>Welcome to the Irma Academy For coders! <p>
@@ -18,38 +26,28 @@
               <div class="card-body">
                 <img alt="image" class="card-img-top" src="images/image2.png">
                 <p>Get to improve your coding skills at Irma Academy.Take a quiz to help you evaluate yourself regularly.</p>
-                
+
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card">
-              <p>Fill in your details and click next to take the quiz.</p>
+              <p>Fill in your details below and click next to take the quiz.</p>
               <p>Ensure that you have filled in all your details correctly</p>
-              <p>Read the instructions carefully before you start the quiz</p>
               <form>
-                <label for="name">Name</label> <input class="form-group" id="text" type="text">
-                <label for="class">Class</label> <input class="form-group" id="text" type="text">
+                <ul>
+                  <li><label for="name">Name</label> <input class="form-group" id="text" type="text"></li>
+                  <li><label for="class">Class</label> <input class="form-group" id="text" type="text"></li>
+                  <li><a href="quizpage.html" button type="submit" class="btn">Next</button></a></li>
+                </ul>
+
               </form>
+                <p>Read the instructions carefully before you start the quiz</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
   </body>

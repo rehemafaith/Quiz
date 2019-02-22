@@ -1,13 +1,18 @@
-nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding:100px;
-  height:10px 100px;
-  width:100%;
-  box-sizing: border-box;
-  transition: .3s;
+li{
+  list-style: none;
 }
-ul{
+.nav-list{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
 
+}
+.list{
+  float:left;
+}
+.list .a{
+  display:block;
+  padding: 9px;
+  background-color: grey;
 }
