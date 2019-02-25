@@ -1,117 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Quiz</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <img  class="gif" src="https://i.gifer.com/1Ozy.gif" alt="gif">
+<head>
+  <title>Quiz</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body class="body">
+  <div class="container">
     <div class="card">
+    <div class="jumbotron"><img alt="gif" class="gif" src="https://i.gifer.com/1Ozy.gif"></div>
       <div id="questions">
-      <p>1. When was JavaScript introduced to the world?</p>
-      <div id="ans1">
-
-          <label>
-            <input type="radio" name="answer1" value="1995">
-            1995
-          </label>
+        <p>1. When was JavaScript introduced to the world?</p>
+        <div id="ans1">
+          <label><input name="answer1" type="radio" value="10"> 1995</label>
         </div>
         <div class="radio">
-          <label>
-            <input type="radio" name="answer1" value="1999">
-            1999
-          </label>
+          <label><input name="answer1" type="radio" value="0"> 1999</label>
         </div>
         <div class="radio">
-          <label>
-            <input type="radio" name="answer1" value="2000">
-            2000
-          </label>
+          <label><input name="answer1" type="radio" value="0"> 2000</label>
         </div>
-        
-
-
-      <p>2. What function do you use to change a string to a number?</p>
-      <div id="ans2">
-        <label>
-          <input type="radio" name="answer2" value="concat">
-          concat
-        </label>
+        <p>2. What function do you use to change a string to a number?</p>
+        <div id="ans2">
+          <label><input name="answer2" type="radio" value="0"> concat</label>
+        </div>
+        <div class="radio">
+          <label><input name="answer2" type="radio" value="0"> toExponential</label>
+        </div>
+        <div class="radio">
+          <label><input name="answer2" type="radio" value="10"> parseInt</label>
+        </div>
+        <p>3. What name is given to the ! operator?</p>
+        <div id="ans3">
+          <label><input name="answer3" type="radio" value="10"> module</label>
+        </div>
+        <div class="radio">
+          <label><input name="answer3" type="radio" value="0"> exclamation</label>
+        </div>
+        <p>4. Is JavaScript a programming language?</p>
+        <div id="ans4">
+          <label><input name="answer4" type="radio" value="10"> yes</label>
+        </div>
+        <div class="radio">
+          <label><input name="answer4" type="radio" value="0"> no</label>
+        </div>
+        <div class="radio">
+          <label><input name="answer4" type="radio" value="0"> I don't know</label>
+        </div>
+        <p>5. What does HTML stand for?</p>
+        <div id="ans5">
+          <label><input name="answer5" type="radio" value="0"> Home Tool Markup Language</label>
+        </div>
+        <div class="radio">
+          <label><input name="answer5" type="radio" value="10"> Hyper Text Markup Language</label>
+        </div>
+        <div class="radio">
+          <label><input name="answer5" type="radio" value="0"> Hyperlinks and Text Markup Language</label>
+        </div>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="answer2" value="exponential">
-          toExponential
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="answer2" value="parseInt">
-          parseInt
-        </label>
-      </div>
-
-      <p>3. What name is given to the ! operator?</p>
-      <div id="ans3">
-        <label>
-          <input type="radio" name="answer3" value="module">
-          module
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="answer3" value="exclamation">
-          exclamation
-        </label>
-      </div>
-
-      <p>4. Is JavaScript a programming language?</p>
-      <div id="ans4">
-        <label>
-          <input type="radio" name="answer4" value="yes">
-          yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="answer4" value="no">
-          no
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="answer4" value="i don't know">
-          I don't know
-        </label>
-      </div>
-
-      <p>5. What does HTML stand for?</p>
-      <div id="ans5">
-        <label>
-          <input type="radio" name="answer5" value="Home">
-          Home Tool Markup Language
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="answer5" value="Hyper">
-          Hyper Text Markup Language
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="answer5" value="Hyperlinks">
-          Hyperlinks and Text Markup Language
-        </label>
-      </div>
+      <li><button id="submit" name="button" type="button">click</button></li>
     </div>
-       <li id="sbmt"><a href="page2.html" button type="submit" class="btn">Submit</a></li>
+    <div class="output">
+      <img alt="gif" id="gifer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLNyB_8cuT5rZr0q1qXfwjiz1_5vbVKXngz8sSLxTRVVHyo69UA">
+      <p id="score"></p>
     </div>
-
-
-
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+    <script src="js/scripts.js">
+    </script>
+  </div>
+</body>
 </html>
