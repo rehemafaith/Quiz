@@ -56,3 +56,15 @@ h1{
 p{
   font-family: 'Signika', sans-serif;
 }
+h2{
+    font-family: 'Chonburi', cursive;
+}
+.instruction{
+  font-family: 'Signika', sans-serif;
+  font-size-adjust: 1.9em;
+}
+.ipage{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4paYOFVEY8ZbKtJp27iX-JfeJIsOvYAbRwxnnTvL0LQyizlgr');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
