@@ -10,11 +10,12 @@ li{
 }
 .list{
   float:left;
+  color: white;
 }
 .list .a{
   display:block;
   padding: 9px;
-  background-color: grey;
+  background-color: white;
 }
 .gif{
   display:block;
@@ -34,4 +35,24 @@ li{
 }
 #gifer{
   display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%
+
+
+}
+.output{
+color: white;
+font-size:3.0em
+
+
+}
+.homepage{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBGmUFDyP0op-3D96ad9JCAFcR54tyHDKl5IsjvTVHiiPMehs');
+}
+h1{
+  font-family: 'Chonburi', cursive;
+}
+p{
+  font-family: 'Signika', sans-serif;
 }
