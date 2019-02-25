@@ -14,7 +14,8 @@ You can get the app from https://rehemafaith.github.io/Quiz/
  
 ### email:rehemafaith01@gmail.com
 
-## [MIT LICENSE](LISENCE)
+### License:
+* [MIT LICENSE](LISENCE)
 
  
  
