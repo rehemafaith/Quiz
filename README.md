@@ -9,7 +9,7 @@ You can get the app from https://rehemafaith.github.io/Quiz/
 
 | Behavior - My program should handle: | Input Example - When it receives: | Output Example - It should return: | 
 | :--------------------: | :--------------------: | :----------------------: | 
-| rehema | adrian | rita |
+| multi-choice questions | answers provided by student | score |
 
 
 ## Technologies used
